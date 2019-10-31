@@ -20,7 +20,7 @@ public class Instatiation implements CommandLineRunner{
 		
 		userRepository.deleteAll();
 		
-		User maria = new User(null, "Maria Brown", "maria@gmail.com");
+		User maria = new User(null, "Mayara Brown", "mayara@gmail.com");
 		User alex = new User(null, "Alex Green", "alex@gmail.com");
 		User bob = new User(null, "Bob Grey", "bob@gmail.com");
 		
